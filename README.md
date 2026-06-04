@@ -1,18 +1,20 @@
-Student Performance Prediction System
+# Student Pass/Fail Predictor
 
-Project Objective:
-Predict student pass/fail status.
-
-Features:
-- Study Hours
+This project predicts whether a student will pass or fail based on:
+- Study hours
 - Attendance
-- Previous Score
+- Previous scores
 
-Algorithm:
-Decision Tree Classifier
+## Run
+```bash
+pip install -r requirements.txt
+python src/train.py
+python src/predict.py
+```
 
-Tools Used:
-Python
-Pandas
-Scikit-learn
-GitHub
+## Model
+- Logistic Regression
+
+## Target
+- Pass = 1
+- Fail = 0
